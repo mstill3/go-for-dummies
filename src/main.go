@@ -17,5 +17,9 @@ func main() {
 		myLoops()
 	case 4:
 		myIf()
+	case 5:
+		myArray()
+	case 6:
+		myMap()
 	}
 }
