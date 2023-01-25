@@ -8,9 +8,10 @@ func myLoops() {
 		fmt.Println(i)
 	}
 
-	// for each index, letter in range of string
-	for _, character := range "Hello" {
-		fmt.Printf("%c\n", character)
+	// for each index, letter (rune) in range of string
+	// chars are runes in Go
+	for _, aRune := range "Hello" {
+		fmt.Printf("%c\n", aRune)
 	}
 
 	// while loop
