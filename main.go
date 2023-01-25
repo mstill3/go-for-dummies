@@ -3,5 +3,6 @@ package main
 func main() {
 	// printing()
 	// variables()
-	// abc()
+	// loops()
+	// ifstatements()
 }

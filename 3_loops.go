@@ -1,11 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"math"
-	"strings"
-	"time"
-)
+import "fmt"
 
 func loops() {
 	// for loop
@@ -14,4 +9,3 @@ func loops() {
 	}
 
 }
-
