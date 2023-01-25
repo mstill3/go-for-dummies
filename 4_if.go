@@ -5,12 +5,13 @@ import (
 	"time"
 )
 
-func ifstatements() {
+func myIf() {
 	// if
-	if 7%2 == 0 {
-		fmt.Println("7 is even")
+	num := 7
+	if num%2 == 0 {
+		fmt.Println(num, " is even")
 	} else {
-		fmt.Println("7 is off")
+		fmt.Println(num, " is off")
 	}
 
 	// switch

@@ -5,7 +5,7 @@ import (
 )
 
 // Printing to the console
-func printing() {
+func myPrinting() {
 	// printing
 	fmt.Print("hello world")
 	fmt.Println("go" + "lang")

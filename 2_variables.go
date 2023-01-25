@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func variables() {
+func myVariables() {
 	// variables
 	var a = "abc"
 	var a2 string = "abc"
