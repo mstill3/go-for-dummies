@@ -32,5 +32,9 @@ func main() {
 		myStrings()
 	case 12:
 		myStructs()
+	case 13:
+		myMethods()
+	case 14:
+		myInterfaces()
 	}
 }
