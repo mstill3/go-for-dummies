@@ -9,6 +9,7 @@ func myMap() {
 	grades["Kaylu"] = 89.3
 
 	fmt.Println(grades)
+	// for key, value := range map
 	for name, grade := range grades {
 		fmt.Println(name, "has grade", grade)
 	}
