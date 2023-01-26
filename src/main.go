@@ -7,7 +7,7 @@ func main() {
 	fmt.Println("Enter a number:")
 	fmt.Scan(&num)
 	fmt.Println()
-    
+
 	switch num {
 	case 1:
 		myPrinting()
@@ -43,6 +43,12 @@ func main() {
 		myStringer()
 	case 17:
 		myErrors()
+	case 18:
+		myReaders()
+	case 19:
+		myGenerics()
+	case 20:
+		myGoroutine()
 	default:
 		fmt.Println("ERROR - Unrecognized option")
 	}

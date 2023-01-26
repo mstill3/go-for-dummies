@@ -35,6 +35,9 @@ func myFunctions() {
 	respCode, respMessage := getResponse()
 	fmt.Println(respCode, "---", respMessage)
 
+	_, respMessage2 := getResponse()
+	fmt.Println(respMessage2)
+
 	fmt.Println(sum(2, 6, 4, 3, 2, 5, 3))
 
 	// anonymous/lambda function
