@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+// define whats expected in Stringer interface
+type Stringer interface {
+	String() string
+}
+
 // NOTE: uses Person struct in `12_structs.go`
 // similar to Java toString()
 func (p Person) String() string {

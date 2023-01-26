@@ -41,6 +41,8 @@ func main() {
 		myTypes()
 	case 16:
 		myStringer()
+	case 17:
+		myErrors()
 	default:
 		fmt.Println("ERROR - Unrecognized option")
 	}
