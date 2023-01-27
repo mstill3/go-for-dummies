@@ -49,6 +49,12 @@ func main() {
 		myGenerics()
 	case 20:
 		myGoroutine()
+	case 21:
+		myChannels()
+	case 30:
+		myRegex()
+	case 31:
+		myJson()
 	default:
 		fmt.Println("ERROR - Unrecognized option")
 	}

@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func showRunes(from string) {
 	for index, char := range from {
@@ -9,6 +12,11 @@ func showRunes(from string) {
 }
 func myGoroutine() {
 	showRunes("hello")
-	go showRunes("sup?")
-	// go showRunes("goodbye")
+	// execute concurrently
+	go showRunes("sup")
+	go showRunes("goodbye")
+
+	// wait for async functions to finish
+	time.Sleep(time.Second)
+    	fmt.Println("done")
 }
