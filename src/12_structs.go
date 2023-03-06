@@ -7,7 +7,7 @@ type Person struct {
 	age  int
 }
 
-// embedded struct
+// Employee embedded struct
 type Employee struct {
 	id int
 	//  An embedding looks like a field without a name
